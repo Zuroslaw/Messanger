@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zuroslaw.messclient.view.AccountRequestDialogController">
+   <children>
+      <VBox alignment="CENTER" layoutX="50.0" prefHeight="200.0" prefWidth="200.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="userNameField" promptText="Username" />
+            <PasswordField fx:id="passwordField" promptText="Password" />
+            <PasswordField fx:id="repeatPasswordField" promptText="Repeat password" />
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="170.0" spacing="10.0">
+               <children>
+                  <Button fx:id="addRequestButton" mnemonicParsing="false" onAction="#addRequestHandler" text="Add request" />
+                  <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#cancelHandler" text="Cancel" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
