@@ -1,11 +1,11 @@
-Author: Mateusz ¯urowski
+Author: Mateusz Å»urowski
 e-mail: mateusz.zurowski@gmail.com
 
 1. The application is my pet project. I created it for three reasons: learn more about REST API, get first experience
 with Spring and build something with JavaFX. Many thanks to Marco Jakob for a great tutorial:
 http://code.makery.ch/library/javafx-8-tutorial/
 
-2. This application was not designed to be safe for communication. Nor is it very useful in its current shape.
+2. This application was not designed to be safe for communication.
 
 HOW TO RUN
 
@@ -28,6 +28,7 @@ USAGE
 login: admin
 passowrd: admin
 3. You can add user request and specify your login and password.
-4. If you sign in as admin, you will have an access to administration window. You can kick/delete user, add 
+4. You can run multiple clients to test functionality.
+5. If you sign in as admin, you will have an access to administration window. You can kick/delete user, add 
 new user, accept or reject user request.
-5. You can run multiple client apps to test communication.
+6. You can run multiple client apps to test communication.
